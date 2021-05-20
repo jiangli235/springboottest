@@ -1,10 +1,10 @@
 FROM springcloudenv:v1
 
-MAINTAINER by wangtw
+MAINTAINER by jiangli
 
-RUN mkdir -p /home/wangtw/springcloudtest
+RUN mkdir -p /home/masp/servers/applications/springcloudtest
 
-WORKDIR /home/wangtw/springcloudtest
+WORKDIR /home/masp/servers/applications/springcloudtest
 
 COPY target/springboottest-0.0.1-SNAPSHOT.jar ./springboottest.jar
 
